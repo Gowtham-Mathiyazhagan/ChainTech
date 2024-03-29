@@ -41,17 +41,21 @@
     <!-- 
 	MAIN
      -->
+
     <main>
+      <div class="wraper">
       <!-- 
 	   #HEADER 
 	 -->
+
       <header class="header">
         <nav class="nav">
           <div class="main-icon">
             <img src="/img/company-icon.png" alt="company-logo" />
           </div>
           <div class="list-detail" list-icon>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars active" bar-icon></i>
+            <i class="fa-solid fa-xmark" close-icon></i>
             <ul class="nav-list" list-data>
               <li class="nav-item active">Company</li>
               <li class="nav-item">Services</li>
@@ -77,6 +81,64 @@
           </button>
         </section>
       </header>
+
+      <!-- 
+	   #HEADER 
+	 -->
+
+      <article class="article">
+        <header class="article-head">
+          <div class="title-group">
+            <h2 class="title h2">Services We Offer</h2>
+            <p class="sub-title h6">
+              Discover the digital possibilities for your brand with our
+              comprehensive suite of services.
+            </p>
+          </div>
+          <div class="nav-icon">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </header>
+        <ul class="services-list" services-list>
+
+          <!-- Using js reduced the repeated code -->
+
+          <!-- <li class="service-item">
+            <div class="join-dev">
+              <figure class="icon">
+                <img src="/img/company-icon2.png" alt="icon" />
+              </figure>
+              <h6 class="common-title h6">Join Development</h6>
+            </div>
+            <div class="title-wrapper">
+              <h3 class="list-title h3">Blockchain <br>Development</h1>
+            <img class="list-img" src="./img/image-1.png" alt="image">
+            </div>
+            <div class="list-footer">
+              <button class="button">
+                Explore
+            <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </li> -->
+
+        </ul>
+      </article>
+
+  <!-- 
+	   #FOOTER 
+	 -->
+
+   <footer class="footer">
+    <div class="main-icon">
+      <img src="./img/company-icon.png" alt="image">
+    </div>
+    <div class="hr-line"></div>
+    <p class="copy-rights h6">© 2024 All Rights Reserved -  Chaintech Network</p>
+   </footer>
+  </div>
+  
     </main>
 
     <script src="/js/script.js"></script>
